@@ -1,0 +1,10 @@
+<div class="main">
+  <div class="col-lg-3 tarjeta" *ngFor="let interior of interiores; let i = index;">
+    <div class="" style="height:100%;">
+      <button  (click)="verInterior(i)" type="button" name="button">
+        <img class="card-img-top img-fluid img-planta" [src]="interior.imagen" [alt]="" >
+      </button>
+    </div>
+    <p class="nombre-planta">{{interior.nombre}}</p>
+  </div>
+</div>

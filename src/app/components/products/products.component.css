@@ -1,0 +1,40 @@
+.wrapper{
+  font-family: Sanchezregular;
+  height: auto;
+  position: relative;
+}
+.container-cards{
+  height: auto;
+  margin-bottom: 5%;
+  color: #0E525C;
+  font-style:Sanchezregular;
+  position: relative;
+}
+
+.card-deck{
+
+  height:500px;
+}
+
+.section-1{
+  margin-top:5%;
+  margin-left:5%;
+  margin-right:5%;
+}
+
+.section-2{
+  margin-top:10%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-bottom: 5%;
+}
+
+.section-3{
+  height: 20px;
+}
+
+button{
+  border-style: none;
+  color: #0E525C;
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.bg{
+  background-image: url("src\assets\img\image-bg.jpg");
+  background-size: cover;
+
+  width: 100%;
+  height: 100%;
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+
+.logo{
+  width: 35%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}

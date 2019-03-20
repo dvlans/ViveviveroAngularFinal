@@ -1,0 +1,31 @@
+.wrapper{
+  height: 100%;
+  position: relative;
+}
+
+.navbar{
+  height: 80px;
+  position: relative;
+  background-color: transparent;
+  font-family: Sanchezregular;
+}
+
+.items-menu{
+  margin-left: 10%;
+}
+
+.navbar-nav{
+
+}
+
+.nav-link {
+    color: #0E525C;
+}
+
+.nav-link-home{
+  color: white;
+}
+
+.navbar-custom .navbar-nav .nav-link1{
+  color: white;
+}

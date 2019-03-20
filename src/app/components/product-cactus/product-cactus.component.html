@@ -1,0 +1,43 @@
+<div class="container">
+  <h1>TIENDA</h1>
+  <h3>{{ cactus.categoria }}</h3>
+</div>
+
+<hr>
+
+<div class="row">
+
+  <div class="col-md-4">
+    <img [src]="cactus.imagen" class="img-fluid imagen-planta" alt="">
+
+  </div>
+
+  <div class="col-md-8">
+    <h3>{{ cactus.nombre }}</h3>
+    <hr>
+    <h3>Precio</h3>
+    <label> Tamaños:
+    <input type="text" name="" value="" style="margin-left:2px;">
+    </label>
+    <br>
+    <label> Cantidad:
+    <input type="text" name="" value="">
+    </label>
+    <p>{{ cactus.otros }}</p>
+    <a href="cactus" class="btn btn-outline-danger  boton-regresar">Regresar </a>
+
+  </div>
+
+</div>
+
+<div class="row" style="display:inline-block">
+
+  <img [src]="cactus1.imagen" class="img-fluid imagen-planta" alt="" width="30%" style="display:inline-block; margin: 0 1% 0 3%">
+  <img [src]="cactus2.imagen" class="img-fluid imagen-planta" alt="" width="30%" style="display:inline-block; margin: 0 1% 0 1%">
+  <img [src]="cactus3.imagen" class="img-fluid imagen-planta" alt="" width="30%" style="display:inline-block; margin: 0 1% 0 1%">
+
+</div>
+
+<div  style="height: 100px;">
+
+</div>

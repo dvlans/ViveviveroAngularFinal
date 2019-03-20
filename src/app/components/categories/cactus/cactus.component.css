@@ -1,0 +1,33 @@
+.main{
+  position: relative;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.tarjeta{
+  display: inline-block;
+  height: 20%;
+  padding: 0 3% 0 3%
+}
+
+.cards-columns{
+  width: 50%;
+}
+
+.nombre-planta{
+  position:relative;
+  display:inline-block;
+  margin-top: 20%
+}
+
+.img-planta{
+
+
+}
+
+button{
+  border-style: none;
+  height:90%;
+  position: relative;
+  margin-top:15%;
+}

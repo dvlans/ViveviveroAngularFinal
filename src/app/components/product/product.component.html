@@ -1,0 +1,41 @@
+<h1>TIENDA</h1>
+<h3>{{ product.categoria }}</h3>
+<hr>
+
+<div class="row">
+
+  <div class="col-md-4">
+    <img [src]="product.imagen" class="img-fluid imagen-planta" alt="">
+
+  </div>
+
+  <div class="col-md-8">
+    <h3>{{ product.nombre }}</h3>
+    <hr>
+    <h3>Precio</h3>
+    <label> Tamaños:
+    <input type="text" name="" value="">
+    </label>
+    <br>
+    <label> Cantidad:
+    <input type="text" name="" value="">
+    </label>
+    <p>{{ product.otros }}</p>
+    <a href="exterior" class="btn btn-outline-danger  boton-regresar">Regresar </a>
+
+  </div>
+
+
+
+</div>
+
+<div class="row" style="display:inline-block">
+
+  <img [src]="product1.imagen" class="img-fluid imagen-planta" alt="" width="30%" style="display:inline-block">
+  <img [src]="product2.imagen" class="img-fluid imagen-planta" alt="" width="30%" style="display:inline-block">
+  <img [src]="product3.imagen" class="img-fluid imagen-planta" alt="" width="30%" style="display:inline-block">
+</div>
+
+<div  style="height: 100px;">
+
+</div>

@@ -1,0 +1,10 @@
+<div class="main">
+  <div class="col-lg-3 tarjeta" *ngFor="let cactus of cactuses; let i = index;">
+    <div class="" style="height:100%;">
+      <button  (click)="verCactus(i)" type="button" name="button">
+        <img class="card-img-top img-fluid img-planta" [src]="cactus.imagen" [alt]="" >
+      </button>
+    </div>
+    <p class="nombre-planta">{{cactus.nombre}}</p>
+  </div>
+</div>
