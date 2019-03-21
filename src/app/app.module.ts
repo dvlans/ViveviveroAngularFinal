@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule }   from '@angular/forms';
 
 //Rutas
 import { APP_ROUTING } from './app.routes';
@@ -25,6 +26,8 @@ import { InteriorComponent } from './components/categories/interior/interior.com
 import { ProductInteriorComponent } from './components/product-interior/product-interior.component';
 import { CactusComponent } from './components/categories/cactus/cactus.component';
 import { ProductCactusComponent } from './components/product-cactus/product-cactus.component';
+import { DatosClienteComponent } from './components/datos-cliente/datos-cliente.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -43,10 +46,14 @@ import { ProductCactusComponent } from './components/product-cactus/product-cact
     ProductInteriorComponent,
     CactusComponent,
     ProductCactusComponent,
+    DatosClienteComponent,
+    LoginComponent,
+
   ],
   imports: [
     BrowserModule,
     APP_ROUTING,
+    FormsModule,
   ],
   providers: [
     ProductsServices,

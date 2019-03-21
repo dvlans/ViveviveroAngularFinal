@@ -10,6 +10,7 @@ import { ExteriorComponent } from './components/categories/exterior/exterior.com
 import { ProductInteriorComponent } from './components/product-interior/product-interior.component';
 import { CactusComponent } from './components/categories/cactus/cactus.component';
 import { ProductCactusComponent } from './components/product-cactus/product-cactus.component';
+import { LoginComponent } from './components/login/login.component';
 
 const APP_ROUTES: Routes = [
   { path: 'home', component: HomeComponent },
@@ -20,6 +21,7 @@ const APP_ROUTES: Routes = [
   { path: 'interior', component: InteriorComponent },
   { path: 'exterior', component: ExteriorComponent },
   { path: 'cactus', component: CactusComponent },
+  { path: 'login', component: LoginComponent },
   { path: 'product/:id', component: ProductComponent },
   { path: 'productInterior/:id', component: ProductInteriorComponent },
   { path: 'productCactus/:id', component: ProductCactusComponent },
